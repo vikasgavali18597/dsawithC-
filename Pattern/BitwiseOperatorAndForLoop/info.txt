@@ -1,0 +1,85 @@
+Bitwise Operator
+
+AND -> &
+OR  -> |
+NOT -> ~
+XOR -> ^
+
+
+
+
+All the operators work on bit levele and not on numbers
+
+( & ) AND => a =2 b =3
+        1 0 = 2
+        1 1 = 3
+        ----
+        1 0 = 2
+
+        table 
+
+both bit should be 1 inorder to return 1 in output
+        X |  Y  |  out put
+        -------------------
+        0 |  0  |  0       
+        0 |  1  |  0       
+        1 |  0  |  0         
+        1 |  1  |  1
+
+
+
+( | ) OR =>
+
+table
+
+            X | Y | output
+            --------------
+            0 | 0 | 0      
+            0 | 1 | 1       
+            1 | 0 | 1       
+            1 | 1 | 1
+
+            exmaple
+            
+            a = 2       1 0
+            b = 4     1 0 0
+                     --------
+                      1 1 0  => 6
+            
+            a = 3        1 1
+            b = 6      1 1 0
+                      --------
+                       1 1 1 => 7
+
+
+
+( ~ ) NOT => 
+
+            table 
+
+            X | Z
+            -----
+            0 | 1
+            1 | 0
+
+            a = 2  1 0  (int is 4 byte) ~a => 
+
+
+
+( ^ ) XOR
+
+                        table  
+
+                        X|Y|o/pu
+                        --------
+                        o|0|0
+                        0|1|1
+                        1|0|1
+                        1|1|0
+
+                        example 
+                        a ^ b
+                        a = 2       1 0
+                        b = 4     1 0 0
+                                -----
+                                1 1 0 => 6
